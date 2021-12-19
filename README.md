@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+## dApp with React, Ethers.js, Solidity and Hardhat.  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 * * * * *
 
-## My Notes.
+## Notes.
 
 1. `npx create-react-app hardhat-react-dapp`
 
