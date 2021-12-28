@@ -10,3 +10,9 @@
 
 4. `npx hardhat compile`
     - `artifacts` get generated; `Greeter.json` contains the info that we will need for the front-end.
+
+5. `npx hardhat node`
+    - Start local network. Acccounts are generated.
+
+6. `npx hardhat run scripts/deploy.js --network localhost`
+    - Deploy the contract to the local network. Address of the contract is returned.
