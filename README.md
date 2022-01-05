@@ -16,3 +16,12 @@
 
 6. `npx hardhat run scripts/deploy.js --network localhost`
     - Deploy the contract to the local network. Address of the contract is returned.
+
+7. In the Metamask wallet, import account  #0 by supplying its private key.
+
+8. React app.
+   - `npm start`
+   - `App.js` .
+   - - Import from `react` and `ethers`. Import `Greeter.json` ABI.
+   - - const `contractAddress`.  `useState()` -> `greeting`, `setGreetingValue`.
+   - - Functions `fetchGreeting`,  `setGreeting`, `requestAccount`.
